@@ -101,6 +101,8 @@
 - CloudTrail vs. CloudWatch and explain in-depth from a security perspective.
 - Why is IMDSv1 vulnerable to SSRF, and can you explain it?
 - Have you implemented IMDSv2, and how does it fix SSRF?
+- What is the Instance Metadata Service (IMDS 169.254.169.254) in AWS, and why is it a potential security concern for EC2 instances? Explain how attackers can abuse the IMDS to compromise an EC2 instance's security.
+- Describe the security implications of IAM credentials stored in the Instance Metadata Service (IMDS) for EC2 instances. How can organizations protect against unauthorized access to IAM credentials via the IMDS, and what best practices should be followed to mitigate this risk?
 - When should you use TGW (Transit Gateway), and is there any security improvement for using this?
 - Why security group named "default" with ports 22, 25, 53, 80, 443, 8080, 6443, 3679, 3306, 9001 is an issue?
 - Can you explain how to use and when to use Access Key ID and Principal ID with one example?
