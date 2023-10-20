@@ -1,6 +1,8 @@
 # Cloud Security Interview Questions
 
 ## General Cloud Security Knowledge
+
+### Basic
 - What are the core principles of cloud security?
 - Explain the shared responsibility model in cloud security.
 - What is the principle of least privilege, and why is it important in cloud security?
@@ -12,9 +14,19 @@
 - What are some common threats to cloud environments, and how can they be mitigated?
 - What is the significance of a Virtual Private Cloud (VPC) in AWS?
 
-### Advance
-  - Can you describe the process of designing a Cloud Security Standard for scanning and ensuring its consistent application across AWS environments?
-  - How would you define security baselines and metrics for auditing and threat modeling in a cloud environment, and what benefits does this bring to an organization?
+### Advance Scenario Based Questions
+- Can you describe the process of designing a Cloud Security Standard for scanning and ensuring its consistent application across AWS environments?
+- How would you define security baselines and metrics for auditing and threat modeling in a cloud environment, and what benefits does this bring to an organization?
+- Imagine you detect suspicious activity in your AWS environment. Walk me through the steps you would take to investigate and respond to the incident.
+- You're responsible for securing a GCP Kubernetes cluster. What measures would you put in place to ensure its security?
+- An Azure VM is showing signs of compromise. How would you isolate the VM, investigate the issue, and remediate it?
+- Your organization needs to implement multi-cloud security. What strategies and tools would you use to ensure consistent security across AWS, GCP, and Azure?
+- Describe a scenario where a misconfigured security group in AWS led to a security breach. How would you prevent such misconfigurations in the future?
+- Walk me through the process of setting up automated backups for your cloud-based databases while ensuring their security.
+- Explain how you would implement Zero Trust Architecture in a hybrid cloud environment that includes AWS and Azure.
+- Your company is migrating to the cloud. How would you ensure a secure transition, including data migration and application security?
+- Describe a scenario where you had to respond to a critical security incident in your cloud environment. What steps did you take to contain and mitigate the incident?
+- How would you use Infrastructure as Code (IaC) tools like Terraform to automate security controls and ensure consistent security across cloud resources? 
     
 
 
@@ -58,19 +70,6 @@
 - What is Azure Bastion, and how does it enhance security in Azure?
 
 
-## Scenario-Based Questions
-- Imagine you detect suspicious activity in your AWS environment. Walk me through the steps you would take to investigate and respond to the incident.
-- You're responsible for securing a GCP Kubernetes cluster. What measures would you put in place to ensure its security?
-- An Azure VM is showing signs of compromise. How would you isolate the VM, investigate the issue, and remediate it?
-- Your organization needs to implement multi-cloud security. What strategies and tools would you use to ensure consistent security across AWS, GCP, and Azure?
-- Describe a scenario where a misconfigured security group in AWS led to a security breach. How would you prevent such misconfigurations in the future?
-- Walk me through the process of setting up automated backups for your cloud-based databases while ensuring their security.
-- Explain how you would implement Zero Trust Architecture in a hybrid cloud environment that includes AWS and Azure.
-- Your company is migrating to the cloud. How would you ensure a secure transition, including data migration and application security?
-- Describe a scenario where you had to respond to a critical security incident in your cloud environment. What steps did you take to contain and mitigate the incident?
-- How would you use Infrastructure as Code (IaC) tools like Terraform to automate security controls and ensure consistent security across cloud resources? 
-
-Scenario-Based Questions:
 
 
 
