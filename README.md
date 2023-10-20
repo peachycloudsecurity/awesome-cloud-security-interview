@@ -91,7 +91,7 @@
 - Explain the potential security risks associated with granting the PassRole permission to IAM roles.
 - How do you restrict the usage of the PassRole permission to specific roles and resources while ensuring security?
 - Describe a scenario where you would use the PassRole permission in AWS IAM, and how would you ensure its security?
-- What best practices would you follow when managing IAM roles with PassRole permissions in a DevSecOps environment?
+- What best practices would you follow when managing IAM roles with PassRole permissions in a AWS environment?
 - What is the AWS CIS (Center for Internet Security) Benchmark, and why is it important for securing AWS resources?
 - Describe some key security checks included in the AWS CIS Benchmark for AWS Identity and Access Management (IAM).
 - How do you use AWS Config to check compliance with the AWS CIS Benchmark, and what actions would you take if non-compliance is detected?
