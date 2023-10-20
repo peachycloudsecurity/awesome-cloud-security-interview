@@ -3,6 +3,7 @@
 ![CloudSecurityBysecuritydojo](images/logo.png)
 
 
+
 ## General Cloud Security Knowledge
 
 ### Basic
