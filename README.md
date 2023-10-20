@@ -12,7 +12,7 @@
 - What are some common threats to cloud environments, and how can they be mitigated?
 - What is the significance of a Virtual Private Cloud (VPC) in AWS?
 
-- #### Advance
+#### Advance
   - Can you describe the process of designing a Cloud Security Standard for scanning and ensuring its consistent application across AWS environments?
   - How would you define security baselines and metrics for auditing and threat modeling in a cloud environment, and what benefits does this bring to an organization?
     
