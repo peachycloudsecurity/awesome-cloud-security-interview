@@ -1,7 +1,6 @@
-# Cloud Security Interview Questions
+# Cloud Security Interview Questions :+1:
 
 ![CloudSecurityBysecuritydojo](images/logo.png)
-
 
 
 ## General Cloud Security Knowledge
@@ -21,6 +20,7 @@
 - Describe a scenario where a misconfigured IAM policy resulted in a data breach. How would you identify and rectify such misconfigurations?
 - How do you ensure that security groups and network ACLs in AWS are correctly configured to prevent unintended exposure of resources?
 - What is AWS Identity and Access Management (IAM) Access Analyzer, and how can it help identify and fix misconfigurations in access policies?
+- Should you expose Database access publicly or to a web application directly?
 
 ### Advance Scenario Based Questions
 - Can you describe the process of designing a Cloud Security Standard for scanning and ensuring its consistent application across AWS environments?
@@ -41,7 +41,7 @@
 - How do you prioritize and remediate vulnerabilities based on their severity and impact in a large-scale cloud environment?
 - Explain the importance of continuous monitoring and re-assessment in vulnerability management at scale.
 
-### Automation and Compliance:
+### Compliance:
 - How can automation be used to enforce security policies and compliance in a cloud environment?
 - Describe how you would automate the patching and updating of cloud resources to address security vulnerabilities.
 - What is Infrastructure as Code (IaC), and how does it improve cloud security?
@@ -51,6 +51,7 @@
 - Describe a scenario where you implemented automated incident response in a cloud environment.
 - What are the key components of a cloud security posture management (CSPM) system, and how would you use it to maintain security?
 - Explain the concept of a Security Information and Event Management (SIEM) system and its role in cloud security.
+
     
 
 ## AWS-Specific Questions
@@ -97,6 +98,18 @@
 - How do you use AWS Config to check compliance with the AWS CIS Benchmark, and what actions would you take if non-compliance is detected?
 - Explain the importance of enabling AWS CloudTrail and AWS Config to align with the CIS Benchmark requirements.
 - How would you address vulnerabilities identified by AWS Inspector that are related to the AWS CIS Benchmark?
+- CloudTrail vs. CloudWatch and explain in-depth from a security perspective.
+- Why is IMDSv1 vulnerable to SSRF, and can you explain it?
+- Have you implemented IMDSv2, and how does it fix SSRF?
+- When should you use TGW (Transit Gateway), and is there any security improvement for using this?
+- Why security group named "default" with ports 22, 25, 53, 80, 443, 8080, 6443, 3679, 3306, 9001 is an issue?
+- Can you explain how to use and when to use Access Key ID and Principal ID with one example?
+- Explain the given IAM policy and its purpose.
+- Explain the given policy and identify any issues with it.
+- What comes to your mind when a service needs cross-account access?
+- What security needs be taken care when giving cross acount access & what is confused deputy in IAM?
+- Do you agree that we need to enable data encryption at rest by default?
+- What checks do you perform in IAM to ensure a Lambda function triggered by an event works correctly?
 
 
 
@@ -108,6 +121,15 @@
 -  Explain how you would use AWS Config to detect and remediate cloud misconfigurations automatically.
 -  How can you automate the detection and remediation of misconfigured security groups in AWS?
 -  How to integrate AWS guardduty with Slack for real time detection.
+-  Have you worked on GuardDuty, and do you have any suggestions to reduce false positives?
+-  How to create a lambda function for config rules and sending email using SES, with multi-account aggregator data.
+-  How do you ensure data integrity for CloudTrail logs?
+- How do you get unencrypted EBS volumes easily using Config filters?
+- How do you use CloudWatch metrics filters?
+- How do you manage EC2 vulnerability patching in an automated way?
+- What checks does AWS Inspector perform to identify instance vulnerabilities?
+- When is encryption by default not enough?
+- Would you suggest key rotation, and what should be the rotation period?
 
 
 
@@ -158,3 +180,6 @@
 - What strategies can you implement to detect and respond to DevSecOps pipeline bypass attempts effectively?
 - Explain how you would conduct a security assessment of a DevSecOps pipeline to identify potential vulnerabilities.
 
+## Reference :pray:
+
+- Additional reference: https://github.com/jassics/security-interview-questions/blob/main/aws-security-interview-questions.md
