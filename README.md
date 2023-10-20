@@ -1,7 +1,6 @@
 # Cloud Security Interview Questions
 
 ## General Cloud Security Knowledge
-
 - What are the core principles of cloud security?
 - Explain the shared responsibility model in cloud security.
 - What is the principle of least privilege, and why is it important in cloud security?
