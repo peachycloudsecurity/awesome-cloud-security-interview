@@ -12,14 +12,13 @@
 - What are some common threats to cloud environments, and how can they be mitigated?
 - What is the significance of a Virtual Private Cloud (VPC) in AWS?
 
-- ####
+- #### Advance
   - Can you describe the process of designing a Cloud Security Standard for scanning and ensuring its consistent application across AWS environments?
   - How would you define security baselines and metrics for auditing and threat modeling in a cloud environment, and what benefits does this bring to an organization?
     
 
 
 ## AWS-Specific Questions
-
 - How do you secure an AWS EC2 instance?
 - What is AWS Identity and Access Management (IAM), and how does it work?
 - How can you protect against DDoS attacks in AWS?
@@ -34,7 +33,6 @@
 
 
 ## GCP-Specific Questions
-
 - What is Google Cloud Identity and Access Management (IAM)?
 - Explain the role of Google Cloud Security Command Center in GCP.
 - How can you secure Google Kubernetes Engine (GKE) clusters?
@@ -48,7 +46,6 @@
 
 
 ## Azure-Specific Questions
-
 - What is Azure Active Directory (Azure AD), and how does it relate to cloud security?
 - How do you secure Azure Virtual Machines (VMs)?
 - Explain Azure Security Center and its key features.
@@ -62,7 +59,6 @@
 
 
 ## Scenario-Based Questions
-
 - Imagine you detect suspicious activity in your AWS environment. Walk me through the steps you would take to investigate and respond to the incident.
 - You're responsible for securing a GCP Kubernetes cluster. What measures would you put in place to ensure its security?
 - An Azure VM is showing signs of compromise. How would you isolate the VM, investigate the issue, and remediate it?
@@ -79,7 +75,6 @@ Scenario-Based Questions:
 
 
 ## Attack and Defense:
-
 - How can you protect against data exfiltration in a cloud environment?
 - What is a privilege escalation attack, and how do you prevent it in a cloud environment?
 - Explain the importance of web application firewalls (WAFs) in cloud security.
@@ -92,13 +87,11 @@ Scenario-Based Questions:
 - 
 
 ## Detection
-
 -  What steps would you take to develop or enhance real-time alerting and detection mechanisms for critical cloud resources like EC2, IAM, S3, VPC, and Security Groups?
 -  How can you enable comprehensive logging for EC2, IAM, S3, VPC, and Security Group activities in AWS to improve detection and monitoring capabilities?
 
 
 ## Automation and Compliance:
-
 - How can automation be used to enforce security policies and compliance in a cloud environment?
 - Describe how you would automate the patching and updating of cloud resources to address security vulnerabilities.
 - What is Infrastructure as Code (IaC), and how does it improve cloud security?
@@ -111,7 +104,6 @@ Scenario-Based Questions:
 - Explain the concept of a Security Information and Event Management (SIEM) system and its role in cloud security.
 
 ## S3 Ransomware Protection:
-
 - How can you protect AWS S3 buckets from ransomware attacks, and what best practices would you recommend?
 - Describe the steps you would take to detect and respond to a ransomware attack on an S3 bucket in real-time.
 - What is Amazon S3 Object Lock, and how can it be used to enhance ransomware protection in S3 buckets?
@@ -119,7 +111,6 @@ Scenario-Based Questions:
 - How do you configure AWS CloudTrail and Amazon S3 Event Notifications to monitor and respond to changes in S3 bucket permissions to prevent unauthorized access?
 
 ## Cloud Misconfigurations:
-
 - What are some common cloud misconfigurations that can lead to security vulnerabilities, and how can they be prevented?
 - Describe a scenario where a misconfigured IAM policy resulted in a data breach. How would you identify and rectify such misconfigurations?
 - How do you ensure that security groups and network ACLs in AWS are correctly configured to prevent unintended exposure of resources?
@@ -127,7 +118,6 @@ Scenario-Based Questions:
 - What is AWS Identity and Access Management (IAM) Access Analyzer, and how can it help identify and fix misconfigurations in access policies?
 
 ## AWS CIS Benchmark:
-
 - What is the AWS CIS (Center for Internet Security) Benchmark, and why is it important for securing AWS resources?
 - Describe some key security checks included in the AWS CIS Benchmark for AWS Identity and Access Management (IAM).
 - How do you use AWS Config to check compliance with the AWS CIS Benchmark, and what actions would you take if non-compliance is detected?
@@ -135,7 +125,6 @@ Scenario-Based Questions:
 - How would you address vulnerabilities identified by AWS Inspector that are related to the AWS CIS Benchmark?
 
 ## AWS Segmentation:
-
 - What is AWS segmentation, and why is it important for securing cloud environments?
 - Explain the concept of VPC peering in AWS. How can it be used to implement network segmentation?
 - How do you configure security groups and network ACLs to enforce network segmentation within an AWS VPC?
@@ -143,7 +132,6 @@ Scenario-Based Questions:
 - What are the key considerations when implementing cross-account access controls for AWS resources in a segmented environment?
 
 ## IAM PassRole:
-
 - What is the purpose of the IAM PassRole permission, and how is it used in AWS?
 - Explain the potential security risks associated with granting the PassRole permission to IAM roles.
 - How do you restrict the usage of the PassRole permission to specific roles and resources while ensuring security?
@@ -151,7 +139,6 @@ Scenario-Based Questions:
 - What best practices would you follow when managing IAM roles with PassRole permissions in a DevSecOps environment?
 
 ## SBOM (Software Bill of Materials):
-
 - What is an SBOM (Software Bill of Materials), and why is it important in cloud security?
 - How can you generate and maintain an SBOM for the software components used in your cloud applications?
 - Describe the role of SBOMs in vulnerability management and supply chain security.
@@ -159,7 +146,6 @@ Scenario-Based Questions:
 - Explain how SBOMs can be used to track and mitigate security vulnerabilities in containerized applications.
 
 ## DevSecOps Pipeline Bypass:
-
 - What is a DevSecOps pipeline bypass, and how can it occur in a CI/CD environment?
 - Describe the techniques and tools that attackers might use to bypass security controls in a DevSecOps pipeline.
 - How do you ensure the integrity and security of the CI/CD pipeline to prevent bypass attempts?
@@ -167,7 +153,6 @@ Scenario-Based Questions:
 - Explain how you would conduct a security assessment of a DevSecOps pipeline to identify potential vulnerabilities.
 
 ## Vulnerability Management at Scale:
-
 - How do you approach vulnerability management at scale in a cloud environment with numerous resources?
 - Describe the steps involved in conducting automated vulnerability scanning of cloud resources.
 - What is the role of asset discovery in effective vulnerability management, and how can it be automated?
