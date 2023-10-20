@@ -1,5 +1,8 @@
 # Cloud Security Interview Questions
 
+![CloudSecurityBysecuritydojo](images/logo.png)
+
+
 ## General Cloud Security Knowledge
 
 ### Basic
