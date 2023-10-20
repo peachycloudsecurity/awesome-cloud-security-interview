@@ -183,3 +183,5 @@
 ## Reference :pray:
 
 - Additional reference: https://github.com/jassics/security-interview-questions/blob/main/aws-security-interview-questions.md
+
+Note: Chatgpt has been used to modify & reframe the questions, I have faced/asked in reallife.
